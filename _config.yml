@@ -102,6 +102,7 @@ nav_pages:
   - name: development
   - name: team
   - name: teaching
+    label: Community in touch
   - name: news
   - name: publications
   - name: about

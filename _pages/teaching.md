@@ -1,10 +1,10 @@
 ---
-title: "Teaching"
+title: "Community in touch"
 layout: page
 permalink: /teaching/
 ---
 
-# Teaching
+# Community in touch
 
 {% if site.data.teaching.size > 0 %}
 <div class="section-card" markdown="0">

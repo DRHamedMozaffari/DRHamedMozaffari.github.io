@@ -6,7 +6,7 @@ permalink: /team/
 
 # Team
 
-**We are looking for new team members!**
+**Interested in collaborating with us?** <a href="{{ '/#contact' | relative_url }}">Contact Us</a>.
 
 {% comment %}
   Every person on this page comes from a file in the _people/ folder.
@@ -17,8 +17,8 @@ permalink: /team/
 {% comment %}
   Which section a person appears in is set by `group:` in their file:
     group: management -> next to the PI
-    group: staff      -> Staff
-    group: students   -> Graduate Students  (also the default if `group` is missing)
+    group: staff      -> Team Members
+    group: students   -> Team Members  (also the default if `group` is missing)
   The PI is the one file with `pi: true`.
 {% endcomment %}
 
@@ -34,19 +34,14 @@ permalink: /team/
 {% for member in management %}{% include team_card.html member=member %}{% endfor %}
 </div>
 
-{% if staff.size > 0 %}
-## Staff
+{% assign team_members = staff | concat: students %}
+{% if team_members.size > 0 %}
+## Team Members
 
 <div class="team-grid team-grid-rich" markdown="0">
-{% for member in staff %}{% include team_card.html member=member %}{% endfor %}
+{% for member in team_members %}{% include team_card.html member=member %}{% endfor %}
 </div>
 {% endif %}
-
-## Graduate Students
-
-<div class="team-grid team-grid-rich" markdown="0">
-{% for member in students %}{% include team_card.html member=member %}{% endfor %}
-</div>
 
 {% if site.data.alumni and site.data.alumni.size > 0 %}
 ## Alumni
