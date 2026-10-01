@@ -6,24 +6,24 @@
   // Accent. Set `accent_color` in _config.yml (it overrides --accent-base);
   // every other accent variable is derived from it so light and dark mode
   // both stay readable whatever color is chosen.
-  --accent-base: #1a7a6d;
+  --accent-base: #15803d;
   --accent: var(--accent-base);
   --accent-hover: color-mix(in srgb, var(--accent-base) 82%, black);
   --accent-light: color-mix(in srgb, var(--accent-base) 8%, transparent);
   --on-accent: #ffffff;           // text placed on a solid accent background
 
-  // Light mode — warm parchment tones
-  --bg-primary: #f8f6f1;
-  --bg-secondary: #f0ece4;
+  // Light mode — clean white with soft green tints
+  --bg-primary: #ffffff;
+  --bg-secondary: #f2f8f4;
   --bg-card: #ffffff;
-  --text-primary: #2c2a25;
-  --text-secondary: #5c5850;
-  --text-muted: #6f6a61;
-  --border-color: #e2ded6;
-  --shadow-sm: 0 1px 3px rgba(44, 42, 37, 0.06);
-  --shadow-md: 0 4px 12px rgba(44, 42, 37, 0.08);
-  --shadow-lg: 0 8px 24px rgba(44, 42, 37, 0.1);
-  --shadow-navbar: 0 1px 4px rgba(44, 42, 37, 0.1);
+  --text-primary: #1d2a22;
+  --text-secondary: #4a5a50;
+  --text-muted: #5f6f65;
+  --border-color: #dceae1;
+  --shadow-sm: 0 1px 3px rgba(21, 128, 61, 0.06);
+  --shadow-md: 0 4px 14px rgba(21, 128, 61, 0.08);
+  --shadow-lg: 0 10px 30px rgba(21, 128, 61, 0.12);
+  --shadow-navbar: 0 1px 4px rgba(29, 42, 34, 0.08);
 
   // Layout
   --container-max: 1100px;

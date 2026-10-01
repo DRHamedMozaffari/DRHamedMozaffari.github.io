@@ -1,10 +1,10 @@
 ---
-title: "Software"
+title: "Development"
 layout: page
-permalink: /software/
+permalink: /development/
 ---
 
-# Software
+# Development
 
 {% for project in site.data.software %}
 <div class="section-card" markdown="0">
@@ -23,5 +23,5 @@ permalink: /software/
 {% endfor %}
 
 {% unless site.data.software.size > 0 %}
-<p class="text-muted">No software listed yet. Add entries to <code>_data/software.yml</code>.</p>
+<p class="text-muted">No development projects listed yet. Add entries to <code>_data/software.yml</code>.</p>
 {% endunless %}

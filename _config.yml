@@ -9,11 +9,37 @@ title: "Research Officer"
 # footer). Leave `lab_name` empty to brand the site with your own
 # name instead.
 # ============================================================
-lab_name: "DiCON Lab"
-lab_full: "Digital and Intelligent Construction Laboratory"
-lab_initials: "DC"   # two letters for the small icon in the navbar / browser tab
+lab_name: "INSIGHT Team"
+lab_full: "Intelligence · Networks · Sensing · Imaging · Green energy · Hardware & robotics · Twins"
+lab_tagline: "Turning visual, spatial and sensor data into insight for a smarter, greener built environment."
+lab_initials: ""   # not used any more — the navbar / browser-tab icon is the logo in favicon.svg
+
+# What each letter of the team name stands for (shown under the name on the
+# home page). If the team name changes, update this list to match.
+lab_letters:
+  - letter: "I"
+    word: "Intelligence"
+    detail: "AI, LLMs, VLMs"
+  - letter: "N"
+    word: "Networks"
+    detail: "IoT, IIoT, AIoT, smart homes, cloud & data"
+  - letter: "S"
+    word: "Sensing"
+    detail: "Satellite, LiDAR, thermography, microscopy, Scan2BIM"
+  - letter: "I"
+    word: "Imaging"
+    detail: "Computer vision"
+  - letter: "G"
+    word: "Green energy"
+    detail: "Green electrical energy"
+  - letter: "H"
+    word: "Hardware"
+    detail: "Robotics & automation"
+  - letter: "T"
+    word: "Twins"
+    detail: "Digital twins, BIM & XR"
 hide_sidebar_profile: true   # true = no PI card in the home page sidebar
-hide_news: true              # true = no News list on the site
+hide_news: true              # true = no News list in the home-page sidebar (the News tab still works)
 
 institution: "National Research Council Canada / Conseil national de recherches Canada"
 email: MHamed.MozaffariMaaref@nrc-cnrc.gc.ca
@@ -34,10 +60,10 @@ links:
 # ============================================================
 # STEP 3: Site Settings
 # ============================================================
-accent_color: "#1a7a6d"      # theme color; light and dark variants are derived automatically
-dark_mode: true              # set to false to disable dark mode entirely
+accent_color: "#15803d"      # theme color (green); light and dark variants are derived automatically
+dark_mode: false             # white & green theme only (set to true to bring back the dark-mode button)
 math: false                  # true loads MathJax on every page; or add `math: true` to individual pages
-description: "DiCON Lab — Digital and Intelligent Construction Laboratory. AI, computer vision, remote sensing and robotics for the built environment."
+description: "INSIGHT Team — a research collaboration in artificial intelligence, computer vision, remote sensing, robotics, IoT, green energy and digital twins for the built environment."
 
 # When deploying with the included GitHub Actions workflow these are filled
 # in automatically from your Pages settings (user site, project site, or
@@ -70,13 +96,15 @@ collections:
 # Each name is a page in _pages/. Add `label: Papers` to change the
 # navbar text without changing the URL.
 nav_pages:
-  - name: about
-  - name: publications
   - name: research
   - name: project
-  - name: software
+    label: Projects
+  - name: development
   - name: team
   - name: teaching
+  - name: news
+  - name: publications
+  - name: about
  # - name: blog
 
 # ============================================================

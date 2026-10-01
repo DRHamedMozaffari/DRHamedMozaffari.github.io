@@ -50,4 +50,19 @@ The common thread is turning visual and sensor data into decisions that engineer
 <p>Recognized by the National Research Council Canada for contributions to the AI4L project, applying artificial intelligence and emerging technology to improve safety in Canadian transportation.</p>
 </div>
 
+<div class="banner-frame" markdown="0">
+<img src="{{ '/images/artificial.jpeg' | relative_url }}" alt="Artificial intelligence and computer vision applied to the built environment" width="1400" height="449" loading="lazy">
+<div class="banner-caption">Artificial intelligence and computer vision for the built environment.</div>
+</div>
+
+## What I work on
+
+My work spans modular, prefabricated, and on-site construction, and brings together six threads: deep learning and large language models for prediction and document analysis; computer vision for detection, segmentation, and thermal inspection; satellite, drone, and hyperspectral imagery for large-area monitoring; autonomous robots and UAV platforms for surveying and quality control; connected sensors for continuous condition monitoring; and digital twins that keep a building's model in step with the building itself.
+
+<p><a href="{{ '/research/' | relative_url }}">Explore the team's research areas &rarr;</a></p>
+
+## Contact
+
+If you work on artificial intelligence, computer vision, remote sensing, or robotics for the built environment and would like to collaborate, <a href="mailto:{{ page.email }}">get in touch</a>.
+
 <p><a href="{{ '/publications' | relative_url }}">See all publications &rarr;</a></p>

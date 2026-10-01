@@ -1,11 +1,12 @@
 ---
 title: "News"
 layout: page
-permalink: /allnews.html
+permalink: /news/
 ---
 
 # News
 
+{% if site.data.news and site.data.news.size > 0 %}
 <div class="section-card" markdown="0">
 <div class="news-timeline">
 {% for article in site.data.news %}
@@ -16,3 +17,6 @@ permalink: /allnews.html
 {% endfor %}
 </div>
 </div>
+{% else %}
+<p class="text-muted">News will be posted here soon. Add entries to <code>_data/news.yml</code>.</p>
+{% endif %}

@@ -1,34 +1,16 @@
-<footer class="site-footer">
-  <div class="footer-grid">
-    <div>
-      <h2 class="footer-heading">About</h2>
-      <p>
-        {% if site.lab_name and site.lab_name != "" %}<strong>{{ site.lab_name }}</strong><br>{% if site.lab_full %}{{ site.lab_full }}<br>{% endif %}{% endif %}
-        {{ site.name }}<br>
-        {{ site.title }}<br>
-        {{ site.institution }}
-      </p>
-    </div>
-    <div>
-      <h2 class="footer-heading">Contact</h2>
-      <p>
-        <a href="mailto:{{ site.email }}">{% include icon.html name="envelope" %} {{ site.email }}</a><br>
-        {% if site.links.github and site.links.github != "" %}<a href="{{ site.links.github }}">{% include icon.html name="github" %} GitHub</a><br>{% endif %}
-      </p>
-    </div>
-    <div>
-      <h2 class="footer-heading">Links</h2>
-      <p>
-        {% if site.links.google_scholar and site.links.google_scholar != "" %}<a href="{{ site.links.google_scholar }}">{% include icon.html name="google-scholar" %} Google Scholar</a><br>{% endif %}
-        {% if site.links.researchgate and site.links.researchgate != "" %}<a href="{{ site.links.researchgate }}">{% include icon.html name="researchgate" %} ResearchGate</a><br>{% endif %}
-        <a href="https://github.com/sbryngelson/academic-website-template">{% include icon.html name="github" %} Use this template!</a>
-      </p>
-    </div>
+{% assign pi_person = site.people | where: "pi", true | first %}
+<footer class="site-footer site-footer-clean">
+  <div class="footer-line">
+    <a class="footer-brand" href="{{ '/' | relative_url }}">
+      <img src="{{ '/favicon.svg' | relative_url }}" width="22" height="22" alt="">
+      {% if site.lab_name and site.lab_name != "" %}{{ site.lab_name | escape }}{% else %}{{ site.name | escape }}{% endif %}
+    </a>
+    <p class="footer-contact">
+      Contact: <a href="{{ '/team/' | relative_url }}">Meet the team</a>{% if pi_person %} &middot; <a href="{{ pi_person.url | relative_url }}">{{ site.name }}</a>{% endif %}
+    </p>
   </div>
-  <div class="footer-grid">
-    <div class="footer-copyright" style="grid-column: 1 / -1;">
-      &copy; {{ "now" | date: "%Y" }} {% if site.lab_name and site.lab_name != "" %}{{ site.lab_name | escape }} &middot; {% endif %}{{ site.name | escape }}
-    </div>
+  <div class="footer-copyright">
+    &copy; {{ "now" | date: "%Y" }} {% if site.lab_name and site.lab_name != "" %}{{ site.lab_name | escape }}{% else %}{{ site.name | escape }}{% endif %} &middot; A non-commercial research profile and portfolio &middot; <a href="{{ '/#disclaimer' | relative_url }}">Disclaimer</a>
   </div>
 </footer>
 
