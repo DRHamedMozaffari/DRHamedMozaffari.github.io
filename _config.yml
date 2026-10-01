@@ -9,8 +9,8 @@ title: "Research Officer"
 # footer). Leave `lab_name` empty to brand the site with your own
 # name instead.
 # ============================================================
-lab_name: "INSIGHT Team"
-lab_full: "Intelligence · Networks · Sensing · Imaging · Green energy · Hardware & robotics · Twins"
+lab_name: "INVERDA Team"
+lab_full: "Intelligence · Networks · Vision · Energy · Remote sensing & Robotics · Digital twins · Augmented reality"
 lab_tagline: "Turning visual, spatial and sensor data into insight for a smarter, greener built environment."
 lab_initials: ""   # not used any more — the navbar / browser-tab icon is the logo in favicon.svg
 
@@ -23,21 +23,21 @@ lab_letters:
   - letter: "N"
     word: "Networks"
     detail: "IoT, IIoT, AIoT, smart homes, cloud & data"
-  - letter: "S"
-    word: "Sensing"
-    detail: "Satellite, LiDAR, thermography, microscopy, Scan2BIM"
-  - letter: "I"
-    word: "Imaging"
+  - letter: "V"
+    word: "Vision"
     detail: "Computer vision"
-  - letter: "G"
-    word: "Green energy"
+  - letter: "E"
+    word: "Energy"
     detail: "Green electrical energy"
-  - letter: "H"
-    word: "Hardware"
-    detail: "Robotics & automation"
-  - letter: "T"
-    word: "Twins"
-    detail: "Digital twins, BIM & XR"
+  - letter: "R"
+    word: "Remote sensing & robotics"
+    detail: "Satellite, LiDAR, thermography, microscopy, Scan2BIM, robotics"
+  - letter: "D"
+    word: "Digital twins"
+    detail: "Digital twins & BIM"
+  - letter: "A"
+    word: "Augmented reality"
+    detail: "Extended reality (XR)"
 hide_sidebar_profile: true   # true = no PI card in the home page sidebar
 hide_news: true              # true = no News list in the home-page sidebar (the News tab still works)
 
@@ -63,7 +63,7 @@ links:
 accent_color: "#15803d"      # theme color (green); light and dark variants are derived automatically
 dark_mode: false             # white & green theme only (set to true to bring back the dark-mode button)
 math: false                  # true loads MathJax on every page; or add `math: true` to individual pages
-description: "INSIGHT Team — a research collaboration in artificial intelligence, computer vision, remote sensing, robotics, IoT, green energy and digital twins for the built environment."
+description: "INVERDA Team — a research collaboration in artificial intelligence, computer vision, remote sensing, robotics, IoT, green energy and digital twins for the built environment."
 
 # When deploying with the included GitHub Actions workflow these are filled
 # in automatically from your Pages settings (user site, project site, or
