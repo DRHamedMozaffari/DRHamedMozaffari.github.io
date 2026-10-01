@@ -63,7 +63,3 @@ permalink: /team/
 </table>
 </div>
 {% endif %}
-
-## Administrative Support
-
-<a href="mailto:exampleemail@gmail.com">Example staff</a> is helping us (and other groups) with administration.
