@@ -11,7 +11,10 @@
 // centred on the page without causing horizontal scrolling.
 .hero-stage {
   position: relative;
-  width: min(1180px, calc(100vw - 40px));
+  // Never taller than the screen: the whole circle fits in one view
+  // (1.57 = width / height of the illustration; 140px = menu + margins).
+  width: min(1180px, calc(100vw - 40px), calc((100vh - 140px) * 1.57));
+  width: min(1180px, calc(100vw - 40px), calc((100svh - 140px) * 1.57));
   left: 50%;
   transform: translateX(-50%);
   container-type: inline-size;
