@@ -2,6 +2,7 @@
 title: "Development"
 layout: page
 permalink: /development/
+published: false   # hidden from the site; set to true (and add it back to nav_pages) to show it again
 ---
 
 # Development

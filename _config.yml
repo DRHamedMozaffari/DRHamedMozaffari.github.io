@@ -99,7 +99,6 @@ nav_pages:
   - name: research
   - name: project
     label: Projects
-  - name: development
   - name: team
   - name: teaching
     label: Community in touch
