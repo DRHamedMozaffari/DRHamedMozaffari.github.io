@@ -116,5 +116,5 @@ permalink: /
 <section class="land-disclaimer" id="disclaimer" markdown="0">
 <h2 class="disclaimer-title">Disclaimer</h2>
 <p>This website is a non-commercial profile and portfolio maintained by its team members. It describes our own research interests and published work and is shared to open opportunities for collaboration and to make our work easy to find and cite — especially for students.</p>
-<p>Nothing on this site is expert or professional advice. We do not represent, and do not speak for, the National Research Council Canada (NRC), the University of Toronto, Carleton University, or any other organization; any views expressed are our own. Some text and images on this site were prepared with the help of AI tools.</p>
+<p>Nothing on this site is expert or professional advice. We do not represent, and do not speak for, the National Research Council Canada (NRC), the University of Toronto, Carleton University, or any other organization; any views expressed are our own.</p>
 </section>
